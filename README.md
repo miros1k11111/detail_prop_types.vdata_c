@@ -1,13 +1,13 @@
 
 
-```markdown
+
 # 🔧 Решение ошибки `detail_prop_types.vdata_c not found` в Hammer
 
 ## Русский
 
 ### Описание проблемы
 
-При работе в Hammer (редактор карт для игр на движке Source, например, CS:GO, Left 4 Dead 2, Portal 2) вы могли столкнуться с ошибкой:
+При работе в Hammer (редактор карт для игр на движке Source 2, например, CS2) вы могли столкнуться с ошибкой:
 
 ```
 detail_prop_types.vdata_c not found
@@ -28,9 +28,8 @@ detail_prop_types.vdata_c not found
 1. Скачайте файл `detail_prop_types.vdata_c` из репозитория.
 2. Поместите его в папку `scripts/` вашей конкретной игры (или в корневую папку SDK).  
    Примеры путей:
-   - `Steam/steamapps/common/Counter-Strike Global Offensive/csgo/scripts/`
-   - `Steam/steamapps/common/Left 4 Dead 2/left4dead2/scripts/`
-   - `Steam/steamapps/common/Sourcesdk_content/<mod>/scripts/`
+   - `Steam/steamapps/common/Counter-Strike Global Offensive/csgo_addons/название проекта/scripts`
+
 3. Если папки `scripts` нет — создайте её.
 4. Перезапустите Hammer.
 
@@ -46,7 +45,7 @@ detail_prop_types.vdata_c not found
 
 ### Problem Description
 
-While working in Hammer (the map editor for Source Engine games such as CS:GO, Left 4 Dead 2, Portal 2), you may encounter the error:
+While working in Hammer (the map editor for Source 2 Engine games such as CS2), you may encounter the error:
 
 ```
 detail_prop_types.vdata_c not found
@@ -67,9 +66,8 @@ This repository provides a working `detail_prop_types.vdata_c` file that restore
 1. Download the `detail_prop_types.vdata_c` file from this repository.
 2. Place it into the `scripts/` folder of your specific game (or the SDK root folder).  
    Example paths:
-   - `Steam/steamapps/common/Counter-Strike Global Offensive/csgo/scripts/`
-   - `Steam/steamapps/common/Left 4 Dead 2/left4dead2/scripts/`
-   - `Steam/steamapps/common/Sourcesdk_content/<mod>/scripts/`
+- `Steam/steamapps/common/Counter-Strike Global Offensive/csgo_addons/название проекта/scripts`
+  
 3. If the `scripts` folder does not exist — create it.
 4. Restart Hammer.
 
