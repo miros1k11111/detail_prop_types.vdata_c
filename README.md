@@ -76,4 +76,4 @@ The error should now be resolved.
 ### Note
 
 If the problem persists, check the file’s read permissions and make sure there are no conflicting `detail_prop_types*` files inside the `scripts` folder.
-```
+
