@@ -66,7 +66,7 @@ This repository provides a working `detail_prop_types.vdata_c` file that restore
 1. Download the `detail_prop_types.vdata_c` file from this repository.
 2. Place it into the `scripts/` folder of your specific game (or the SDK root folder).  
    Example paths:
-- `Steam/steamapps/common/Counter-Strike Global Offensive/csgo_addons/название проекта/scripts`
+- `Steam/steamapps/common/Counter-Strike Global Offensive/csgo_addons/name project/scripts`
   
 3. If the `scripts` folder does not exist — create it.
 4. Restart Hammer.
